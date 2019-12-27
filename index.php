@@ -1,5 +1,5 @@
 <?php
-$getfile = file_get_contents('WSDEV.picwicnt.fr.20191210.json');
+$getfile = file_get_contents('thefiletocheck.json');
 $jsonfile = json_decode($getfile);
 ?>
 <!DOCTYPE html>
